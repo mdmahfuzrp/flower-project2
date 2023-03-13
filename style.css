@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flower-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #2A3D81;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flower-section .flower{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    background-color: #6C93CC;
+    position: relative;
+}
+.ring-1, .ring-2, .ring-3, .ring-4{
+    width: 250px;
+    height: 250px;
+    border: 20px solid #2A3D81;
+    border-radius: 50%;
+    position: absolute;
+}
+.ring-1{
+    left: -90px;
+    top: 30px;
+}
+.ring-2{
+    left: 30px;
+    top: -90px;
+}
+.ring-3{
+    right: -90px;
+    top: 30px;
+}
+.ring-4{
+    left: 30px;
+    bottom: -90px;
+}
